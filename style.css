@@ -1,4 +1,20 @@
+{
+     margin 
+    padding
+}
 :root{
-    --cor-fundo:
-    --cor-fontes:
+    --cor-fundo:#FAEE80;
+    --cor-fontes:#95916C;
+}
+.cabecalho{
+    background-color: var(--cor-fundo);
+    color: var(--cor-fontes);
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
+.imagem-cabecalho{
+    display: inline-block;
+margin: 0 16px;
+font-size: 24px;
 }
